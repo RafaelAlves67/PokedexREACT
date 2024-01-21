@@ -1,0 +1,43 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.titulo{
+    display: block;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    background-color: rgb(229, 229, 143);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.nome{
+    border-top: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
